@@ -1,0 +1,6 @@
+import type { Metadata } from "next";
+import { PageHero } from "@/components/PageHero";
+import { FurnitureCatalogue } from "@/components/FurnitureCatalogue";
+import { furniture } from "@/data/furniture";
+export const metadata:Metadata={title:"Furniture Collection",description:"Collectible furniture and custom pieces designed as an extension of the space.",alternates:{canonical:"/furniture"}};
+export default function FurniturePage(){return <><PageHero eyebrow="Objects / Collection 01" title="Furniture designed" italic="as part of the space." image={furniture[2].image} intro="A permanent collection of tactile, low-volume pieces—drawn in our studio and made by exceptional craftspeople."/><section className="section-pad"><div className="container-site"><FurnitureCatalogue/></div></section><section className="bg-[var(--paper-2)] py-24 md:py-36"><div className="container-site grid gap-12 md:grid-cols-2"><h2 className="serif display-md">Made for<br/><i>one particular place.</i></h2><div><p className="text-sm leading-7 text-muted">Our custom atelier develops one-off furniture for projects and private collectors. From proportion and ergonomics to timber selection and metal patina, each decision is made for its future setting.</p><p className="mt-8 eyebrow text-accent">Custom commissions · 12—18 weeks</p></div></div></section></>}

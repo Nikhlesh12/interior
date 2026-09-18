@@ -1,0 +1,6 @@
+export const team = [
+  { name: "Aarav Khanna", role: "Founder / Principal Designer", experience: "17 years", specialty: "Spatial narrative & materiality", image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=1200&q=86", bio: "Aarav leads the studio with a belief that enduring spaces begin with listening." },
+  { name: "Meera Iyer", role: "Design Director", experience: "13 years", specialty: "Residential interiors", image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=1200&q=86", bio: "Meera brings an editorial eye and exacting warmth to every residential commission." },
+  { name: "Kabir Shah", role: "Lead Architect", experience: "11 years", specialty: "Architecture & sustainability", image: "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?auto=format&fit=crop&w=1200&q=86", bio: "Kabir turns climate, landscape and structure into quietly expressive architecture." },
+  { name: "Naina Rao", role: "Furniture Designer", experience: "9 years", specialty: "Collectible design", image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=86", bio: "Naina shapes tactile objects that carry the same logic as the rooms around them." },
+];

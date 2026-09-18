@@ -1,0 +1,10 @@
+export const furniture = [
+  { slug: "arc-sofa", name: "Arc Sofa", category: "Sofas", materials: "Bouclé, feather, smoked oak", dimensions: "2850 × 1100 × 720 mm", image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1800&q=88", story: "A low, generous landscape with a continuous curved back." },
+  { slug: "solace-chair", name: "Solace Chair", category: "Chairs", materials: "Saddle leather, walnut", dimensions: "760 × 820 × 730 mm", image: "https://images.unsplash.com/photo-1598300053650-a9a57b2f3c4d?auto=format&fit=crop&w=1800&q=88", story: "A sculptural reading chair balanced between shelter and lightness." },
+  { slug: "monolith-table", name: "Monolith Table", category: "Tables", materials: "Travertine, brushed bronze", dimensions: "2400 × 1050 × 740 mm", image: "https://images.unsplash.com/photo-1532372320572-cda25653a694?auto=format&fit=crop&w=1800&q=88", story: "A single plane of stone held above an almost invisible bronze base." },
+  { slug: "ember-pendant", name: "Ember Pendant", category: "Lighting", materials: "Cast glass, aged brass", dimensions: "Ø 420 × 680 mm", image: "https://images.unsplash.com/photo-1540932239986-30128078f3c5?auto=format&fit=crop&w=1800&q=88", story: "Hand-cast glass diffuses a warm point of light like an ember." },
+  { slug: "rill-bed", name: "Rill Bed", category: "Beds", materials: "Oak, linen, natural cane", dimensions: "2050 × 2280 × 980 mm", image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1800&q=88", story: "A calm timber frame with softened edges and a woven headboard." },
+  { slug: "folio-console", name: "Folio Console", category: "Storage", materials: "Blackened oak, bronze", dimensions: "1800 × 430 × 780 mm", image: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1800&q=88", story: "Architectural storage defined by deep reveals and shadow lines." },
+];
+
+export const furnitureCategories = ["All", "Sofas", "Chairs", "Dining", "Tables", "Beds", "Storage", "Lighting", "Custom Pieces"];
