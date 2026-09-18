@@ -2,7 +2,8 @@ export const siteConfig = {
   name: "Atelier Arka",
   shortName: "AA",
   descriptor: "Interior Architecture · Objects",
-  siteUrl: "https://atelierarka.example.com",
+  siteUrl:
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://atelierarka.example.com",
   email: "studio@atelierarka.in",
   phone: "+91 98765 43210",
   whatsapp: "919876543210",
